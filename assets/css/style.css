@@ -1,0 +1,76 @@
+.container {
+    width: 30%;
+    margin: 0 auto;
+    padding: 0 20px;
+    box-sizing: border-box;
+    text-align: center;
+    border: 1px solid #000;
+    border-radius: 5px;
+    background-color: #f4f4f4;
+
+}
+
+.do {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 40px;
+    padding: 15px;
+    font: 18px Arial, sans-serif;
+}
+
+.do .txt {
+    flex-grow: 1;
+    padding: 10px;
+    margin: 10px 0;
+    box-sizing: border-box;
+    border: 1px solid #000;
+    border-radius: 5px;
+}
+
+.do .btn {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #000;
+    color: #fff;
+    cursor: pointer;
+    font-weight: bold;
+    transition: 0.3s all;
+}
+
+.do .btn:hover {
+    background-color: #fff;
+    color: #000;
+    font-weight: bold;
+}
+
+.dolist {
+    text-align: left;
+    padding: 15px;
+    font: 18px Arial, sans-serif;
+    margin-top: 10px;
+}
+
+.dolist input:checked+label {
+    text-decoration: line-through;
+    font-size: 24px;
+    font-weight: 500;
+    color: #000;
+}
+
+.dolist label {
+    cursor: pointer;
+}
+
+.dolist .item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+    padding: 10px;
+    margin: 10px 0;
+    box-sizing: border-box;
+    border: 1px solid #000;
+    border-radius: 5px;
+}
